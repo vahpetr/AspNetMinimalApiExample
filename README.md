@@ -9,6 +9,9 @@ Net 6.0 version.
 
 
 ```bash
+# create project command example
+dotnet new webapi --no-https --use-minimal-apis --no-openapi -o MyMinimalApi
+
 # local run
 dotnet run --urls https://+:8001
 open https://localhost:8001
@@ -40,6 +43,7 @@ docker image push vahpetr/aspnet-minimal-api-example:latest
 1. [Dockerhub vahpetr/aspnet-minimal-api-example](https://hub.docker.com/repository/docker/vahpetr/aspnet-minimal-api-example)
 2. [.NET](https://dotnet.microsoft.com/)
 3. [Download .NET](https://dotnet.microsoft.com/download)
-4. [Hosting ASP.NET Core images with Docker over HTTPS](https://docs.microsoft.com/en-us/aspnet/core/security/docker-https?view=aspnetcore-6.0)
-5. [Hosting ASP.NET Core images with Docker Compose over HTTPS](https://docs.microsoft.com/en-us/aspnet/core/security/docker-compose-https?view=aspnetcore-6.0)
-6. [Trimming options](https://docs.microsoft.com/en-us/dotnet/core/deploying/trimming/trimming-options)
+4. [Документация по ASP.NET](https://docs.microsoft.com/ru-ru/aspnet/core/?view=aspnetcore-6.0)
+5. [Hosting ASP.NET Core images with Docker over HTTPS](https://docs.microsoft.com/en-us/aspnet/core/security/docker-https?view=aspnetcore-6.0)
+6. [Hosting ASP.NET Core images with Docker Compose over HTTPS](https://docs.microsoft.com/en-us/aspnet/core/security/docker-compose-https?view=aspnetcore-6.0)
+7. [Trimming options](https://docs.microsoft.com/en-us/dotnet/core/deploying/trimming/trimming-options)
